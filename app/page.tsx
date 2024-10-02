@@ -20,11 +20,13 @@ export default async function Home() {
     <p className="styles.description">私たちは市場をリードしているグローバルテックカンパニーです。</p>
   </div>
   <Image
-   className={styles.bgimg}
+   className={styles.bgImg}
    src="/img-mv.jpg"
    alt=""
    width={4000}
    height={1200}
+   priority
+   sizes="100vw"
   />
   </section>
 
